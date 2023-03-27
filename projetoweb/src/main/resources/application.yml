@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: password
+    url:  jdbc:h2:~/test
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+    ddl-auto: create
+
+#file:C:/Users/ACER/IdeaProjects/modulo_6/projetoweb/spring-boot-h2-db
+#jdbc:h2:men:testdb
